@@ -1,0 +1,16 @@
+
+
+NOT A FUNCTIONAL PHP SCRIPT (yet). This is just to show some an example php program I've written.
+
+The project included is in a very early stage of development (like day one). 
+The final project is live and looks much different. 
+The final project also uses models and other shared classes on the server not part of this project.
+My goal with this project is to move everything into the one project for easy portability and demonstration.
+
+
+TODO:
+* REFACTOR, REFACTOR, REFACTOR
+* Move images to images folder or to the files folder for easier readability
+* Test basic functionality
+* Allow automatic demo if system is not connected to a MySQL database.
+

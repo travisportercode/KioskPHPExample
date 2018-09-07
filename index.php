@@ -1,5 +1,7 @@
 <?php
 
+/* SEE README FILE FOR LATEST PROJECT NOTES */
+
 date_default_timezone_set("America/Chicago");
 
 
