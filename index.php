@@ -123,62 +123,31 @@ if (empty($_SESSION['kiosk']) && empty($_SESSION['client'])){
 } else if (empty($_SESSION['kiosk'])){
     errorPageSales('Missing kiosk name in Start URL.');
 }
-//exit('startURL: ' . $_SESSION['startUrl']);
-//exit('clientName: ' . $_SESSION['client']);
-//csn 20160613
-//if (empty($_SESSION['location'])) {
-//    $_SESSION['kiosk'] = new kiosk();
-//    $_SESSION['location'] = $_SESSION['kiosk']->loadFromDb($_SESSION['kiosk'], $_SESSION['client']);
-//}
 
-//$_SESSION['kioskObject']->loadFromDb($_SESSION['kiosk'], $_SESSION['client']);
-//    echo "<pre>";
-//    print_r($_SESSION['kiosk']);
-//    print_r($_SESSION['client']);
-//    print_r($_SESSION['kioskObject']);
-//    echo "</pre>";
-//    exit;
-
-//csn 20160613
 if (empty($_SESSION['kioskObject'])) {
     $_SESSION['kioskObject'] = new kiosk();
     $_SESSION['kioskObject']->loadFromDb($_SESSION['kiosk'], $_SESSION['client']);
     // $_SESSION['kioskObject']->location;
-    
-//    echo "<pre>";
-//    print_r($_SESSION['kiosk']);
-//    print_r($_SESSION['client']);
-//    print_r($_SESSION['kioskObject']);
-//    echo "</pre>";
-//    exit;
+
 }
 
     
 
 
 
-/*$reqDump = "\n\n\n\n\n";
-$reqDump .= "---------------------" . date('Y-m-d H:i:s') . "---------------------";
-$reqDump .= "\n\n\n\n\n";
-$reqDump .= print_r($_REQUEST, true);
-$reqDump .= print_r($_SESSION, true);
-
-$fp = file_put_contents('/ECommerceSessions/15864/requests_' .  date("Ymd") . '.txt', $reqDump, FILE_APPEND);
-*/
-
-
 
 $_SESSION['loginData']['IP'] = '';
 
-$_SESSION['data']['db'] = 'ecommerce';
-$_SESSION['data']['user'] = 'ecommerce'; 
-$_SESSION['data']['pass'] = 'ecommerce_connect';
+
+// This needs to be moved out of project.
+$_SESSION['data']['db'] = 'MySQL_database';
+$_SESSION['data']['user'] = 'MySQL_username'; 
+$_SESSION['data']['pass'] = 'MySQL_password';
 
 $_SESSION['account'] = new Account();
 $_SESSION['account']->loadFromDb('frost');
 
 $_SESSION['modeOfSale'] = '9';
-//$_SESSION['newPromoCode'] = $_SESSION['kioskObject']->location;
 $_SESSION['newPromoCode'] = '1';
 
 
