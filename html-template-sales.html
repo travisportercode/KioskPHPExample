@@ -1,0 +1,522 @@
+<html>
+<head>
+    <title>~title~</title>
+    <meta charset="UTF-8">
+    ~metaTag~
+    
+    
+    <link rel="stylesheet" type="text/css" href="jaKeyboard/jaKeyboard.css">
+    
+    <style>
+        
+        body{
+            margin: 0px;
+            background-color:#f0efec;
+            overflow:hidden;
+            font-family:arial;
+            font-size:28pt;
+            font-weight:200;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /* ----------- survey styles --------- */
+         .labels{
+            font-family:helvetica;
+            font-weight:400;
+            font-size:30pt;
+          }
+          .textBoxes{
+                width:350px;
+                height:70px;
+                font-family:helvitica;
+                font-weight:400;
+                font-size:28pt;
+                text-align: center;
+          }
+          .continueButtons{
+                font-family:helvetica;
+                font-weight:700;
+                font-size:38pt;
+                color:#FFFFFF;
+                height:100px;
+                border: 2px solid black;
+          }
+         #lastNameDiv{
+                /*background-color: rgba(204,204,204,0.8);*/
+                position:fixed;
+                /*width:100%;
+                height:100%;*/
+                top:0px;
+                left:0px;
+                z-index:3;
+                visibility:hidden;
+         }
+
+         .lastNamePos{
+                position:absolute;
+                left: 405px; 
+                top: 395px;
+                z-index:2;
+         }
+         #lastNamePos2{
+                position:absolute;
+                visibility:hidden;
+                left: 700px; 
+                top: 295px;
+                z-index:3;
+         }
+        /* =========== end of survey styles =============== */
+                
+                
+                
+                
+                
+                
+                
+                
+        
+         .largeNumericTextBox{
+                    width:400px;
+                    height:70px;
+                    font-family:helvitica;
+                    font-weight:400;
+                    font-size:28pt;
+                    text-align: center;
+         }
+        .priceDetail{
+            font-family:arial;
+            font-weight: 500;
+            font-size: 16pt;
+        }
+        .memberYesNo {
+                font-family:helvitica;
+                font-size:32pt;
+                font-weight:200;
+            }
+        .surveyLabel {
+                font-family:arial;
+                font-size:26pt;
+                font-weight:600;
+                text-align:left;
+        }
+        .surveyInput {
+            
+                width: 600px;
+                height: 50px;
+                font-family:arial;
+                font-size:22pt;
+                font-weight:200;
+        }    
+        .groupTitle {
+               font-family:verdana;
+               font-size:34pt;
+               font-weight:600;
+               color:#000088;
+           }    
+         .groupMessage {
+               font-family:arial;
+               font-size:18pt;
+               font-weight:300;
+           } 
+          .loggedInMessage {
+               font-family:verdana;
+               font-size:12pt;
+               font-weight:300;
+           } 
+           
+           
+           
+           
+           
+           
+           
+           
+           .pricesMessage {
+                font-family:arial;
+                font-size:32pt;
+                font-weight:600;
+                text-align:left;
+            }
+           
+            
+            
+            
+            
+             .pricesBigLabel {
+                font-family:arial;
+                font-size:26pt;
+                font-weight:600;
+                text-align:left;
+            }
+            .pricesBigQty {
+                font-family:arial;
+                font-size:50pt;
+                font-weight:500;
+                text-align:center;
+                /*background-color: #FFFFFF;*/
+            }
+            .pricesBigTotalLabel {
+                font-family:arial;
+                font-size:26pt;
+                font-weight:600;
+                text-align:left;
+                color: blue;
+                background-color: #dddddd;
+            }
+            .pricesBigQtyTotalDisplay {
+                font-family:arial;
+                font-size:50pt;
+                font-weight:500;
+                text-align:center;
+                color: blue;
+                background-color: #dddddd;
+                /*background-color: #FFFFFF;*/
+            }
+            .pricesBigTotalTotalDisplay {
+                font-family:arial;
+                font-size:30pt;
+                font-weight:500;
+                text-align:right;
+                color: blue;
+                background-color: #dddddd;
+                /*background-color: #FFFFFF;*/
+            } 
+            .pricesBigPrice {
+                font-family:arial;
+                font-size:30pt;
+                font-weight:500;
+                text-align:right;
+                /*background-color: #FFFFFF;*/
+            }
+            
+            
+            
+            .pricesSmallLabel {
+                font-family:arial;
+                font-size:20pt;
+                font-weight:600;
+                text-align:left;
+            }
+            .pricesSmallQty {
+                font-family:arial;
+                font-size:16pt;
+                font-weight:400;
+                text-align:center;
+                /*background-color: #FFFFFF;*/
+            }
+            .pricesSmallTotalLabel {
+                font-family:arial;
+                font-size:16pt;
+                font-weight:600;
+                text-align:left;
+                color: blue;
+                background-color: #dddddd;
+            }
+            .pricesSmallQtyTotalDisplay {
+                font-family:arial;
+                font-size:16pt;
+                font-weight:500;
+                text-align:center;
+                color: blue;
+                background-color: #dddddd;
+                /*background-color: #FFFFFF;*/
+            }
+            .pricesSmallTotalTotalDisplay {
+                font-family:arial;
+                font-size:16pt;
+                font-weight:500;
+                text-align:right;
+                color: blue;
+                background-color: #dddddd;
+                /*background-color: #FFFFFF;*/
+            } 
+            .pricesSmallPrice {
+                font-family:arial;
+                font-size:16pt;
+                font-weight:500;
+                text-align:right;
+                /*background-color: #FFFFFF;*/
+            }
+            
+            #postingDiv{
+                /*background-color: rgba(204,204,204,0.8);*/
+                background-color: #aeaead;
+                position:fixed;
+                width:100%;
+                height:100%;
+                top:0px;
+                left:0px;
+                z-index:1;
+                visibility:hidden;
+            }
+            .posting{
+                position:absolute;
+                /*left: 700px; 
+                top: 395px;*/
+                left: 570px; 
+                top: 310px;
+                z-index:2;
+            }
+            .postingTable{
+                /*background-color:#ffffff;*/
+                background-color:#f0efec;
+                font-family:helLtCn;
+                font-size: 23px;
+                /*border-radius: 10px;
+                border: 3px solid #000000;*/
+        }
+            
+            #timerDiv{
+                    background-color: rgba(204,204,204,0.8);
+                    position:fixed;
+                    width:100%;
+                    height:100%;
+                    top:0px;
+                    left:0px;
+                    z-index:1000;
+                    visibility:hidden;
+            }
+            .timer{
+                opacity: 1;
+                position:absolute;
+                left: 700px; 
+                top: 395px;
+                z-index:2;
+            }
+            .timerTable{
+                background-color:#ffffff;
+                border-radius: 10px;
+                border: 3px solid #000000;
+            }
+            
+            
+            #errorDiv{
+                    background-color: rgba(204,204,204,0.8);
+                    position:fixed;
+                    width:100%;
+                    height:100%;
+                    top:0px;
+                    left:0px;
+                    z-index:1000;
+                    visibility:visible;
+            }
+            .error{
+                position:absolute;
+                left: 600px; 
+                top: 295px;
+                z-index:2;
+            }
+            .errorTable{
+                border-radius: 10px;
+                border: 3px solid #000000;
+            }
+            
+            
+            
+            
+            
+             
+            .errorMessage{
+                font-family:arial;
+                font-size:16pt;
+                font-weight:400;
+            }
+            .errorTitle{
+                font-family:arial;
+                font-size:24pt;
+                font-weight:600;
+            }
+            
+            
+            
+            
+            
+            
+            .errorOKTd {
+                text-align:center; 
+                font-family:verdana;
+                font-size:38pt;
+                font-style: italic;
+                font-weight:550;
+                height:100px;
+                border-radius: 10px;
+                border: 3px solid #e8533f;
+            }
+            .errorOKTd_clicked {
+                text-align:center; 
+                font-family:verdana;
+                font-size:38pt;
+                font-style: italic;
+                font-weight:550;
+                height:100px;
+                border-radius: 10px;
+                border: 3px solid #2c2cc3;
+            }
+            
+            
+            
+            
+            
+            .performancesNoneAvailable {
+                text-align:center; 
+                font-family:verdana;
+                font-size:38pt;
+                font-style: italic;
+                font-weight:550;
+                height:100px;
+            }
+            
+            
+             .performancesBigTd {
+                text-align:center; 
+                font-family:verdana;
+                font-size:38pt;
+                font-style: italic;
+                font-weight:550;
+                height:100px;
+                border-radius: 10px;
+                border: 3px solid #e8533f;
+            }
+            .performancesBigTd_clicked {
+                text-align:center; 
+                font-family:verdana;
+                font-size:38pt;
+                font-style: italic;
+                font-weight:550;
+                height:100px;
+                border-radius: 10px;
+                border: 3px solid #2c2cc3;
+            }
+            
+            
+            /* TODO: still need to test the performancesSmall... */
+            .performancesSmallTd {
+                text-align:center; 
+                font-family:verdana;
+                font-size:28pt;
+                font-style: italic;
+                font-weight:550;
+                height:70px;
+                border-radius: 10px;
+                border: 3px solid #e8533f;
+            }
+            .performancesSmallTd_clicked {
+                text-align:center; 
+                font-family:verdana;
+                font-size:28pt;
+                font-style: italic;
+                font-weight:550;
+                height:70px;
+                border-radius: 10px;
+                border: 3px solid #2c2cc3;
+            }
+            
+            
+            
+            
+            .displayCartLabel {
+                font-family:arial;
+                font-size:26pt;
+                font-weight:600;
+                text-align:left;
+            }
+            .displayCartSeatingTitle {
+                font-family:arial;
+                font-size:12pt;
+                font-weight:600;
+                text-decoration: underline;
+            }
+            
+           
+        
+    </style>
+        
+   
+    
+    
+</head>
+
+
+
+<body ondragstart="return false;" ondrop="return false;">
+
+    
+<div style="position: absolute; top:0; left:0; width:1920px;height:1080px;border:1px solid black">     
+    
+ ~header~
+ 
+ 
+ <script>
+     function postBack(){
+        document.getElementById("timerDiv").style.visibility="visible";
+        document.getElementById("processingMessage").innerHTML = "Going Back...";
+        setTimeout(function() {
+           document.back.submit(); 
+           return true;
+        },250);
+     }
+     
+     function postHome(){
+        document.getElementById("timerDiv").style.visibility="visible";
+        document.getElementById("processingMessage").innerHTML = "Going Back to Start...";
+        setTimeout(function() {
+           document.startover.submit()
+           return true;
+        },250);
+         
+     }
+ </script>
+ 
+~javaScript~
+ 
+            <form name="myform" action="" method="post">
+                <input id="task" name="task" type="hidden" value=""> 
+            </form>
+
+
+            <div style="position:absolute;top:200px;width:1920px">
+                ~topTable~
+            </div>     
+           
+            
+            
+            <div style="position:absolute;bottom:100px;width:1920px;">
+                ~navigationTable~
+            </div>
+
+
+
+            <div id="timerDiv">
+                    <div class="timer">
+                        <table cellspacing=0 cellpadding=0 class="timerTable">
+                            <tr>
+                                <td align="center" bgcolor="#ffffff" width ="500" height="250"><h1>
+                                    <div id="processingMessage" name="processingMessage">Processing...</div>
+                                    </h1><br><img id="timer" src="http://galileo.ewwl2.com/ECommerce/Tessitura/15864/site_files/712.GIF"></td>
+                            </tr>
+                        </table>
+                    </div>
+            </div>
+
+
+
+</div> 
+ 
+    <!-- Script for Just Arrive Keyboards-->
+    <script src="jaKeyboard/jaKeyboard-2016.js"></script>
+        
+</body>
+
+
+
+
+
+</html>

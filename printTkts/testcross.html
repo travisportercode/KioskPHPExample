@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>test cross</title>
+        <script>
+            var invocation = new XMLHttpRequest();
+            var url = 'http://localhost/printTkts/printTkts.php';
+   
+            function callOtherDomain() {
+              if(invocation) {    
+                invocation.open('GET', url, true);
+                invocation.onreadystatechange = handler;
+                invocation.send(); 
+              }
+            }
+            
+            </script>
+    </head>
+    <body>
+        hello
+        
+        <script>callOtherDomain();</script>
+    </body>
+</html>

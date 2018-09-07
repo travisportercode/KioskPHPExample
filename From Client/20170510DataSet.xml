@@ -1,0 +1,817 @@
+
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <GetCartResults xmlns="">
+      <Order diffgr:id="Order1" msdata:rowOrder="0">
+        <sessionkey>VD5XT5B0C3T95UC668LHAS13KHN7LFLD3C51LV5U3HESFXCU5O2BSUHD80AFA131</sessionkey>
+        <order_no>107678</order_no>
+        <appeal_no>1</appeal_no>
+        <source_no>1</source_no>
+        <customer_no>156234</customer_no>
+        <solicitor>webapi  </solicitor>
+        <MOS>9</MOS>
+        <order_dt>2017-05-12T10:47:20-04:00</order_dt>
+        <order_total>48.0000</order_total>
+        <order_value>48.0000</order_value>
+        <db_status>1</db_status>
+        <amt_to_charge>48.0000</amt_to_charge>
+        <first_seat_added_dt>2017-05-12T10:47:20-04:00</first_seat_added_dt>
+        <amt_paid_to_dt>0.0000</amt_paid_to_dt>
+        <amt_paid_now>0.0000</amt_paid_now>
+        <balance_to_charge>48.0000</balance_to_charge>
+        <SubTotal>48.0000</SubTotal>
+        <HandlingCharges>0.0000</HandlingCharges>
+      </Order>
+      <LineItem diffgr:id="LineItem1" msdata:rowOrder="0">
+        <li_seq_no>97854</li_seq_no>
+        <li_no>0</li_no>
+        <order_no>107678</order_no>
+        <pkg_no>0</pkg_no>
+        <perf_no>2026</perf_no>
+        <priority>0</priority>
+        <zone_no>406</zone_no>
+        <alt_upgrd_ind xml:space="preserve"> </alt_upgrd_ind>
+        <primary_ind>Y</primary_ind>
+        <perf_code>PL170512AE</perf_code>
+        <perf_dt>2017-05-12T21:10:00-04:00</perf_dt>
+        <perf_desc>Asteroid: Mission Extreme 3D</perf_desc>
+        <pkg_code />
+        <pkg_desc />
+        <facility_desc>Frost Science</facility_desc>
+        <db_status>1</db_status>
+        <zmap_no>133</zmap_no>
+        <prod_type>1</prod_type>
+        <prod_type_desc>Default TR_PERF_TYPE</prod_type_desc>
+        <season_no>11</season_no>
+        <season_desc>FY17 TKT General Admission</season_desc>
+        <ga_ind>Y</ga_ind>
+        <facil_no>102</facil_no>
+        <zone_no_int>406</zone_no_int>
+        <line_source_no>1</line_source_no>
+      </LineItem>
+      <LineItem diffgr:id="LineItem2" msdata:rowOrder="1">
+        <li_seq_no>97855</li_seq_no>
+        <li_no>0</li_no>
+        <order_no>107678</order_no>
+        <pkg_no>0</pkg_no>
+        <perf_no>2026</perf_no>
+        <priority>0</priority>
+        <zone_no>406</zone_no>
+        <alt_upgrd_ind xml:space="preserve"> </alt_upgrd_ind>
+        <primary_ind>Y</primary_ind>
+        <perf_code>PL170512AE</perf_code>
+        <perf_dt>2017-05-12T21:10:00-04:00</perf_dt>
+        <perf_desc>Asteroid: Mission Extreme 3D</perf_desc>
+        <pkg_code />
+        <pkg_desc />
+        <facility_desc>Frost Science</facility_desc>
+        <db_status>1</db_status>
+        <zmap_no>133</zmap_no>
+        <prod_type>1</prod_type>
+        <prod_type_desc>Default TR_PERF_TYPE</prod_type_desc>
+        <season_no>11</season_no>
+        <season_desc>FY17 TKT General Admission</season_desc>
+        <ga_ind>Y</ga_ind>
+        <facil_no>102</facil_no>
+        <zone_no_int>406</zone_no_int>
+        <line_source_no>1</line_source_no>
+      </LineItem>
+      <LineItem diffgr:id="LineItem3" msdata:rowOrder="2">
+        <li_seq_no>97856</li_seq_no>
+        <li_no>0</li_no>
+        <order_no>107678</order_no>
+        <pkg_no>0</pkg_no>
+        <perf_no>2026</perf_no>
+        <priority>0</priority>
+        <zone_no>406</zone_no>
+        <alt_upgrd_ind xml:space="preserve"> </alt_upgrd_ind>
+        <primary_ind>Y</primary_ind>
+        <perf_code>PL170512AE</perf_code>
+        <perf_dt>2017-05-12T21:10:00-04:00</perf_dt>
+        <perf_desc>Asteroid: Mission Extreme 3D</perf_desc>
+        <pkg_code />
+        <pkg_desc />
+        <facility_desc>Frost Science</facility_desc>
+        <db_status>1</db_status>
+        <zmap_no>133</zmap_no>
+        <prod_type>1</prod_type>
+        <prod_type_desc>Default TR_PERF_TYPE</prod_type_desc>
+        <season_no>11</season_no>
+        <season_desc>FY17 TKT General Admission</season_desc>
+        <ga_ind>Y</ga_ind>
+        <facil_no>102</facil_no>
+        <zone_no_int>406</zone_no_int>
+        <line_source_no>1</line_source_no>
+      </LineItem>
+      <LineItem diffgr:id="LineItem4" msdata:rowOrder="3">
+        <li_seq_no>97857</li_seq_no>
+        <li_no>0</li_no>
+        <order_no>107678</order_no>
+        <pkg_no>0</pkg_no>
+        <perf_no>1871</perf_no>
+        <priority>0</priority>
+        <zone_no>69</zone_no>
+        <alt_upgrd_ind xml:space="preserve"> </alt_upgrd_ind>
+        <primary_ind>Y</primary_ind>
+        <perf_code>GA17051201</perf_code>
+        <perf_dt>2017-05-12T22:00:00-04:00</perf_dt>
+        <perf_desc>General Admission</perf_desc>
+        <pkg_code />
+        <pkg_desc />
+        <facility_desc>Frost Science</facility_desc>
+        <db_status>1</db_status>
+        <zmap_no>27</zmap_no>
+        <prod_type>1</prod_type>
+        <prod_type_desc>Default TR_PERF_TYPE</prod_type_desc>
+        <season_no>11</season_no>
+        <season_desc>FY17 TKT General Admission</season_desc>
+        <ga_ind>Y</ga_ind>
+        <facil_no>24</facil_no>
+        <zone_no_int>69</zone_no_int>
+        <line_source_no>1</line_source_no>
+      </LineItem>
+      <LineItem diffgr:id="LineItem5" msdata:rowOrder="4">
+        <li_seq_no>97858</li_seq_no>
+        <li_no>0</li_no>
+        <order_no>107678</order_no>
+        <pkg_no>0</pkg_no>
+        <perf_no>1871</perf_no>
+        <priority>0</priority>
+        <zone_no>69</zone_no>
+        <alt_upgrd_ind xml:space="preserve"> </alt_upgrd_ind>
+        <primary_ind>Y</primary_ind>
+        <perf_code>GA17051201</perf_code>
+        <perf_dt>2017-05-12T22:00:00-04:00</perf_dt>
+        <perf_desc>General Admission</perf_desc>
+        <pkg_code />
+        <pkg_desc />
+        <facility_desc>Frost Science</facility_desc>
+        <db_status>1</db_status>
+        <zmap_no>27</zmap_no>
+        <prod_type>1</prod_type>
+        <prod_type_desc>Default TR_PERF_TYPE</prod_type_desc>
+        <season_no>11</season_no>
+        <season_desc>FY17 TKT General Admission</season_desc>
+        <ga_ind>Y</ga_ind>
+        <facil_no>24</facil_no>
+        <zone_no_int>69</zone_no_int>
+        <line_source_no>1</line_source_no>
+      </LineItem>
+      <LineItem diffgr:id="LineItem6" msdata:rowOrder="5">
+        <li_seq_no>97862</li_seq_no>
+        <li_no>0</li_no>
+        <order_no>107678</order_no>
+        <pkg_no>0</pkg_no>
+        <perf_no>1871</perf_no>
+        <priority>0</priority>
+        <zone_no>69</zone_no>
+        <alt_upgrd_ind xml:space="preserve"> </alt_upgrd_ind>
+        <primary_ind>Y</primary_ind>
+        <perf_code>GA17051201</perf_code>
+        <perf_dt>2017-05-12T22:00:00-04:00</perf_dt>
+        <perf_desc>General Admission</perf_desc>
+        <pkg_code />
+        <pkg_desc />
+        <facility_desc>Frost Science</facility_desc>
+        <db_status>1</db_status>
+        <zmap_no>27</zmap_no>
+        <prod_type>1</prod_type>
+        <prod_type_desc>Default TR_PERF_TYPE</prod_type_desc>
+        <season_no>11</season_no>
+        <season_desc>FY17 TKT General Admission</season_desc>
+        <ga_ind>Y</ga_ind>
+        <facil_no>24</facil_no>
+        <zone_no_int>69</zone_no_int>
+        <line_source_no>1</line_source_no>
+      </LineItem>
+      <SubLineItem diffgr:id="SubLineItem1" msdata:rowOrder="0">
+        <sli_no>259112</sli_no>
+        <li_seq_no>97854</li_seq_no>
+        <due_amt>0.0000</due_amt>
+        <paid_amt>0.0000</paid_amt>
+        <price_type>1</price_type>
+        <seat_no>261736</seat_no>
+        <perf_no>2026</perf_no>
+        <pkg_no>0</pkg_no>
+        <zone_no>406</zone_no>
+        <order_no>107678</order_no>
+        <seat_row>10</seat_row>
+        <seat_num>7</seat_num>
+        <zone_desc>11:20am</zone_desc>
+        <section_desc>Main Floor</section_desc>
+        <section_short_desc>Main</section_short_desc>
+        <section_print_desc>MF</section_print_desc>
+        <db_status>1</db_status>
+        <prod_season_no>1562</prod_season_no>
+        <facility_no>102</facility_no>
+        <seat_type>1</seat_type>
+        <seat_type_desc>Regular</seat_type_desc>
+        <zone_no_int>406</zone_no_int>
+      </SubLineItem>
+      <SubLineItem diffgr:id="SubLineItem2" msdata:rowOrder="1">
+        <sli_no>259113</sli_no>
+        <li_seq_no>97855</li_seq_no>
+        <due_amt>0.0000</due_amt>
+        <paid_amt>0.0000</paid_amt>
+        <price_type>2</price_type>
+        <seat_no>261737</seat_no>
+        <perf_no>2026</perf_no>
+        <pkg_no>0</pkg_no>
+        <zone_no>406</zone_no>
+        <order_no>107678</order_no>
+        <seat_row>10</seat_row>
+        <seat_num>8</seat_num>
+        <zone_desc>11:20am</zone_desc>
+        <section_desc>Main Floor</section_desc>
+        <section_short_desc>Main</section_short_desc>
+        <section_print_desc>MF</section_print_desc>
+        <db_status>1</db_status>
+        <prod_season_no>1562</prod_season_no>
+        <facility_no>102</facility_no>
+        <seat_type>1</seat_type>
+        <seat_type_desc>Regular</seat_type_desc>
+        <zone_no_int>406</zone_no_int>
+      </SubLineItem>
+      <SubLineItem diffgr:id="SubLineItem3" msdata:rowOrder="2">
+        <sli_no>259114</sli_no>
+        <li_seq_no>97856</li_seq_no>
+        <due_amt>0.0000</due_amt>
+        <paid_amt>0.0000</paid_amt>
+        <price_type>29</price_type>
+        <seat_no>261738</seat_no>
+        <perf_no>2026</perf_no>
+        <pkg_no>0</pkg_no>
+        <zone_no>406</zone_no>
+        <order_no>107678</order_no>
+        <seat_row>10</seat_row>
+        <seat_num>9</seat_num>
+        <zone_desc>11:20am</zone_desc>
+        <section_desc>Main Floor</section_desc>
+        <section_short_desc>Main</section_short_desc>
+        <section_print_desc>MF</section_print_desc>
+        <db_status>1</db_status>
+        <prod_season_no>1562</prod_season_no>
+        <facility_no>102</facility_no>
+        <seat_type>1</seat_type>
+        <seat_type_desc>Regular</seat_type_desc>
+        <zone_no_int>406</zone_no_int>
+      </SubLineItem>
+      <SubLineItem diffgr:id="SubLineItem4" msdata:rowOrder="3">
+        <sli_no>259115</sli_no>
+        <li_seq_no>97857</li_seq_no>
+        <due_amt>28.0000</due_amt>
+        <paid_amt>0.0000</paid_amt>
+        <price_type>1</price_type>
+        <seat_no>40747</seat_no>
+        <perf_no>1871</perf_no>
+        <pkg_no>0</pkg_no>
+        <zone_no>69</zone_no>
+        <order_no>107678</order_no>
+        <seat_row>19</seat_row>
+        <seat_num>49</seat_num>
+        <zone_desc>General Admission</zone_desc>
+        <section_desc>Main Floor</section_desc>
+        <section_short_desc>Main</section_short_desc>
+        <section_print_desc>MF</section_print_desc>
+        <db_status>1</db_status>
+        <prod_season_no>1556</prod_season_no>
+        <facility_no>24</facility_no>
+        <seat_type>1</seat_type>
+        <seat_type_desc>Regular</seat_type_desc>
+        <zone_no_int>69</zone_no_int>
+      </SubLineItem>
+      <SubLineItem diffgr:id="SubLineItem5" msdata:rowOrder="4">
+        <sli_no>259116</sli_no>
+        <li_seq_no>97858</li_seq_no>
+        <due_amt>20.0000</due_amt>
+        <paid_amt>0.0000</paid_amt>
+        <price_type>2</price_type>
+        <seat_no>40767</seat_no>
+        <perf_no>1871</perf_no>
+        <pkg_no>0</pkg_no>
+        <zone_no>69</zone_no>
+        <order_no>107678</order_no>
+        <seat_row>20</seat_row>
+        <seat_num>19</seat_num>
+        <zone_desc>General Admission</zone_desc>
+        <section_desc>Main Floor</section_desc>
+        <section_short_desc>Main</section_short_desc>
+        <section_print_desc>MF</section_print_desc>
+        <db_status>1</db_status>
+        <prod_season_no>1556</prod_season_no>
+        <facility_no>24</facility_no>
+        <seat_type>1</seat_type>
+        <seat_type_desc>Regular</seat_type_desc>
+        <zone_no_int>69</zone_no_int>
+      </SubLineItem>
+      <SubLineItem diffgr:id="SubLineItem6" msdata:rowOrder="5">
+        <sli_no>259121</sli_no>
+        <li_seq_no>97862</li_seq_no>
+        <due_amt>0.0000</due_amt>
+        <paid_amt>0.0000</paid_amt>
+        <price_type>29</price_type>
+        <seat_no>40797</seat_no>
+        <perf_no>1871</perf_no>
+        <pkg_no>0</pkg_no>
+        <zone_no>69</zone_no>
+        <order_no>107678</order_no>
+        <seat_row>20</seat_row>
+        <seat_num>49</seat_num>
+        <zone_desc>General Admission</zone_desc>
+        <section_desc>Main Floor</section_desc>
+        <section_short_desc>Main</section_short_desc>
+        <section_print_desc>MF</section_print_desc>
+        <db_status>1</db_status>
+        <prod_season_no>1556</prod_season_no>
+        <facility_no>24</facility_no>
+        <seat_type>1</seat_type>
+        <seat_type_desc>Regular</seat_type_desc>
+        <zone_no_int>69</zone_no_int>
+      </SubLineItem>
+      <PriceType diffgr:id="PriceType1" msdata:rowOrder="0">
+        <price_type>1</price_type>
+        <description>TE Adult 12+</description>
+        <short_desc>Adult 12+</short_desc>
+        <category>Standard</category>
+        <def_price_type>N</def_price_type>
+      </PriceType>
+      <PriceType diffgr:id="PriceType2" msdata:rowOrder="1">
+        <price_type>2</price_type>
+        <description>TE Child 3-11</description>
+        <short_desc>Child 3-11</short_desc>
+        <category>Standard</category>
+        <def_price_type>N</def_price_type>
+      </PriceType>
+      <PriceType diffgr:id="PriceType3" msdata:rowOrder="2">
+        <price_type>29</price_type>
+        <description>TE Infant 0-2</description>
+        <short_desc>Infant 0-2</short_desc>
+        <category>Standard</category>
+        <def_price_type>N</def_price_type>
+      </PriceType>
+    </GetCartResults>
+  </diffgr:diffgram>
+</DataSet>
+
+
+
+
+
+
+
+1
+SimpleXMLElement Object
+(
+    [sli_no] => 261094
+    [li_seq_no] => 99126
+    [due_amt] => 0.0000
+    [paid_amt] => 0.0000
+    [price_type] => 1
+    [seat_no] => 262348
+    [perf_no] => 2026
+    [pkg_no] => 0
+    [zone_no] => 410
+    [order_no] => 108095
+    [seat_row] => 22
+    [seat_num] => 19
+    [zone_desc] => 2:00pm
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1562
+    [facility_no] => 102
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 410
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261095
+    [li_seq_no] => 99127
+    [due_amt] => 0.0000
+    [paid_amt] => 0.0000
+    [price_type] => 2
+    [seat_no] => 262349
+    [perf_no] => 2026
+    [pkg_no] => 0
+    [zone_no] => 410
+    [order_no] => 108095
+    [seat_row] => 22
+    [seat_num] => 20
+    [zone_desc] => 2:00pm
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1562
+    [facility_no] => 102
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 410
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261096
+    [li_seq_no] => 99128
+    [due_amt] => 0.0000
+    [paid_amt] => 0.0000
+    [price_type] => 29
+    [seat_no] => 262350
+    [perf_no] => 2026
+    [pkg_no] => 0
+    [zone_no] => 410
+    [order_no] => 108095
+    [seat_row] => 22
+    [seat_num] => 21
+    [zone_desc] => 2:00pm
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1562
+    [facility_no] => 102
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 410
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261097
+    [li_seq_no] => 99129
+    [due_amt] => 28.0000
+    [paid_amt] => 0.0000
+    [price_type] => 1
+    [seat_no] => 40978
+    [perf_no] => 1871
+    [pkg_no] => 0
+    [zone_no] => 69
+    [order_no] => 108095
+    [seat_row] => 24
+    [seat_num] => 30
+    [zone_desc] => General Admission
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1556
+    [facility_no] => 24
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 69
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261098
+    [li_seq_no] => 99130
+    [due_amt] => 20.0000
+    [paid_amt] => 0.0000
+    [price_type] => 2
+    [seat_no] => 41062
+    [perf_no] => 1871
+    [pkg_no] => 0
+    [zone_no] => 69
+    [order_no] => 108095
+    [seat_row] => 26
+    [seat_num] => 14
+    [zone_desc] => General Admission
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1556
+    [facility_no] => 24
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 69
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261099
+    [li_seq_no] => 99131
+    [due_amt] => 0.0000
+    [paid_amt] => 0.0000
+    [price_type] => 29
+    [seat_no] => 41063
+    [perf_no] => 1871
+    [pkg_no] => 0
+    [zone_no] => 69
+    [order_no] => 108095
+    [seat_row] => 26
+    [seat_num] => 15
+    [zone_desc] => General Admission
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1556
+    [facility_no] => 24
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 69
+)
+
+
+------------------------------------------------------------------------------------
+2
+SimpleXMLElement Object
+(
+    [sli_no] => 261094
+    [li_seq_no] => 99126
+    [due_amt] => 0.0000
+    [paid_amt] => 0.0000
+    [price_type] => 1
+    [seat_no] => 262348
+    [perf_no] => 2026
+    [pkg_no] => 0
+    [zone_no] => 410
+    [order_no] => 108095
+    [seat_row] => 22
+    [seat_num] => 19
+    [zone_desc] => 2:00pm
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1562
+    [facility_no] => 102
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 410
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261095
+    [li_seq_no] => 99127
+    [due_amt] => 0.0000
+    [paid_amt] => 0.0000
+    [price_type] => 2
+    [seat_no] => 262349
+    [perf_no] => 2026
+    [pkg_no] => 0
+    [zone_no] => 410
+    [order_no] => 108095
+    [seat_row] => 22
+    [seat_num] => 20
+    [zone_desc] => 2:00pm
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1562
+    [facility_no] => 102
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 410
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261096
+    [li_seq_no] => 99128
+    [due_amt] => 0.0000
+    [paid_amt] => 0.0000
+    [price_type] => 29
+    [seat_no] => 262350
+    [perf_no] => 2026
+    [pkg_no] => 0
+    [zone_no] => 410
+    [order_no] => 108095
+    [seat_row] => 22
+    [seat_num] => 21
+    [zone_desc] => 2:00pm
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1562
+    [facility_no] => 102
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 410
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261097
+    [li_seq_no] => 99129
+    [due_amt] => 28.0000
+    [paid_amt] => 0.0000
+    [price_type] => 1
+    [seat_no] => 40978
+    [perf_no] => 1871
+    [pkg_no] => 0
+    [zone_no] => 69
+    [order_no] => 108095
+    [seat_row] => 24
+    [seat_num] => 30
+    [zone_desc] => General Admission
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1556
+    [facility_no] => 24
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 69
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261098
+    [li_seq_no] => 99130
+    [due_amt] => 20.0000
+    [paid_amt] => 0.0000
+    [price_type] => 2
+    [seat_no] => 41062
+    [perf_no] => 1871
+    [pkg_no] => 0
+    [zone_no] => 69
+    [order_no] => 108095
+    [seat_row] => 26
+    [seat_num] => 14
+    [zone_desc] => General Admission
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1556
+    [facility_no] => 24
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 69
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261099
+    [li_seq_no] => 99131
+    [due_amt] => 0.0000
+    [paid_amt] => 0.0000
+    [price_type] => 29
+    [seat_no] => 41063
+    [perf_no] => 1871
+    [pkg_no] => 0
+    [zone_no] => 69
+    [order_no] => 108095
+    [seat_row] => 26
+    [seat_num] => 15
+    [zone_desc] => General Admission
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1556
+    [facility_no] => 24
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 69
+)
+------------------------------------------------------------------------------------
+29
+SimpleXMLElement Object
+(
+    [sli_no] => 261094
+    [li_seq_no] => 99126
+    [due_amt] => 0.0000
+    [paid_amt] => 0.0000
+    [price_type] => 1
+    [seat_no] => 262348
+    [perf_no] => 2026
+    [pkg_no] => 0
+    [zone_no] => 410
+    [order_no] => 108095
+    [seat_row] => 22
+    [seat_num] => 19
+    [zone_desc] => 2:00pm
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1562
+    [facility_no] => 102
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 410
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261095
+    [li_seq_no] => 99127
+    [due_amt] => 0.0000
+    [paid_amt] => 0.0000
+    [price_type] => 2
+    [seat_no] => 262349
+    [perf_no] => 2026
+    [pkg_no] => 0
+    [zone_no] => 410
+    [order_no] => 108095
+    [seat_row] => 22
+    [seat_num] => 20
+    [zone_desc] => 2:00pm
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1562
+    [facility_no] => 102
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 410
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261096
+    [li_seq_no] => 99128
+    [due_amt] => 0.0000
+    [paid_amt] => 0.0000
+    [price_type] => 29
+    [seat_no] => 262350
+    [perf_no] => 2026
+    [pkg_no] => 0
+    [zone_no] => 410
+    [order_no] => 108095
+    [seat_row] => 22
+    [seat_num] => 21
+    [zone_desc] => 2:00pm
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1562
+    [facility_no] => 102
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 410
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261097
+    [li_seq_no] => 99129
+    [due_amt] => 28.0000
+    [paid_amt] => 0.0000
+    [price_type] => 1
+    [seat_no] => 40978
+    [perf_no] => 1871
+    [pkg_no] => 0
+    [zone_no] => 69
+    [order_no] => 108095
+    [seat_row] => 24
+    [seat_num] => 30
+    [zone_desc] => General Admission
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1556
+    [facility_no] => 24
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 69
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261098
+    [li_seq_no] => 99130
+    [due_amt] => 20.0000
+    [paid_amt] => 0.0000
+    [price_type] => 2
+    [seat_no] => 41062
+    [perf_no] => 1871
+    [pkg_no] => 0
+    [zone_no] => 69
+    [order_no] => 108095
+    [seat_row] => 26
+    [seat_num] => 14
+    [zone_desc] => General Admission
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1556
+    [facility_no] => 24
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 69
+)
+SimpleXMLElement Object
+(
+    [sli_no] => 261099
+    [li_seq_no] => 99131
+    [due_amt] => 0.0000
+    [paid_amt] => 0.0000
+    [price_type] => 29
+    [seat_no] => 41063
+    [perf_no] => 1871
+    [pkg_no] => 0
+    [zone_no] => 69
+    [order_no] => 108095
+    [seat_row] => 26
+    [seat_num] => 15
+    [zone_desc] => General Admission
+    [section_desc] => Main Floor
+    [section_short_desc] => Main
+    [section_print_desc] => MF
+    [db_status] => 1
+    [prod_season_no] => 1556
+    [facility_no] => 24
+    [seat_type] => 1
+    [seat_type_desc] => Regular
+    [zone_no_int] => 69
+)

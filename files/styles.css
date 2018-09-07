@@ -1,0 +1,64 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+    color: #DDDDDD;
+    background-color: #000000;
+}
+
+
+@font-face {
+    font-family: 'Eurostile';
+    src: url('files/EurostileLTStd-Bold.otf') format('otf');
+}
+
+
+.movieButtonClickMessage{
+    color:#e9790a;
+    font:12pt 'Eurostile';
+    font-weight:400;
+}
+
+.movieButtonMessage{
+    color:#AAAAAA;
+    font:12pt 'Eurostile';
+    font-weight:0;
+}
+
+
+.paragraphStart{
+    color: #DDDDDD;
+    font:14pt 'Eurostile';
+    font-weight: 600;
+}
+
+
+.paragraph{
+    color: #AAAAAA;
+    font:10pt 'Eurostile';
+    font-weight: 300;
+}
+
+.messageEmphasis{
+    color: #FFFFFF;
+    font:16pt 'Eurostile';
+    font-weight: 300;
+}
+
+
+
+.phoneNumber{
+    color: #CCCCCC;
+    font:20pt 'Eurostile';
+    font-weight: 600;
+}
+.contactName{
+    color: #CCCCCC;
+    font:14pt 'Eurostile';
+    font-weight: 400;
+}
+.contactInfo{
+    color: #CCCCCC;
+    font:10pt 'Eurostile';
+    font-weight: 300;
+}

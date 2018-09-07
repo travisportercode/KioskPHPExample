@@ -1,0 +1,124 @@
+<html>
+
+<head>
+<title>test boca printer</title>
+    
+<!-- script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script -->
+<script src="jquery.min.js"></script>
+<script>       
+var currentTicket = 0;
+
+var tkts = [
+    "<NR>   <RC50,260>      <F3><HW2,1>TEST EVENT <RC120,260>      <F9><HW2,1>Christina Franklin - 6254154819      <RC180,260>     <F5><HW2,1>     <RC250,260>     <F5><HW1,1>     <RC310,260>     <F10><HW1,1>25.00<RL>   <RC220,910>     <F1><HW2,1>2014CF       <RC320,950>     <F9><HW1,1>ADULT / 6254154819   <RC80,1010><FL><X3>:1413500401: <RC260,1020>1413500401<p>",
+    "<NR>   <RC50,260>      <F3><HW2,1>TEST EVENT  <RC120,260>     <F9><HW2,1>John Doe - 6254154819      <RC180,260>     <F5><HW2,1>     <RC250,260>     <F5><HW1,1>     <RC310,260>     <F10><HW1,1>25.00<RL>   <RC220,910>     <F1><HW2,1>2014CF       <RC320,950>     <F9><HW1,1>ADULT / 6254154819   <RC80,1010><FL><X3>:1413500402: <RC260,1020>1413500402<p>",    
+    "<NR>   <RC50,260>      <F3><HW2,1>TEST EVENT  <RC120,260>     <F9><HW2,1>Christina Franklin - 6254154819      <RC180,260>     <F5><HW2,1>     <RC250,260>     <F5><HW1,1>     <RC310,260>     <F10><HW1,1>25.00<RL>   <RC220,910>     <F1><HW2,1>2014CF       <RC320,950>     <F9><HW1,1>ADULT / 6254154819   <RC80,1010><FL><X3>:1413500403: <RC260,1020>1413500403<p>"
+];
+var totalTickets = tkts.length;     
+function printNext(){
+    printTkt(tkts[currentTicket], currentTicket+1, totalTickets);
+    currentTicket++;
+    if (currentTicket < totalTickets){
+        window.setTimeout("printNext()", 1500);
+    }
+}
+function printTkt(fgl, currentTicket, totalTickets){
+    document.getElementById('printingMessage').innerHTML = "Printing " + currentTicket + " of " + totalTickets + ".";
+    $.ajax({
+        url : "http://localhost/printTkts/printTkts.php",
+        type: "POST",
+        data : "fgl=" + fgl,
+        success: function(data, textStatus, jqXHR)
+        {
+            document.getElementById('printingMessage').innerHTML = "Printed " + currentTicket + " of " + totalTickets + ".";
+        },
+        error: function(xhr, status, error) {
+            var err = eval("(" + xhr.responseText + ")");
+            document.write(err.Message);
+        }
+        /*error: function (jqXHR, textStatus, errorThrown)
+        {
+            document.write("ERROR");
+            document.write("jqXHR: " + jqXHR);
+            document.write("textStatus: " + textStatus);
+            document.write("errorThrown: " + errorThrown);
+        }*/
+    });
+}
+
+
+
+
+
+
+
+
+var xmlTkts = [
+    "<fname>John</fname><lname>Doe</lname>",
+    "<fname>Bill</fname><lname>Clinton</lname>",    
+    "<fname>Johny</fname><lname>Cash</lname>"
+];
+var totalXmlTickets = xmlTkts.length; 
+var currentXmlTicket = 0;
+
+
+
+function printNextXml(){
+    printTktUsingXml(xmlTkts[currentTicket], currentXmlTicket+1, totalXmlTickets);
+    currentXmlTicket++;
+    if (currentXmlTicket < totalXmlTickets){
+        window.setTimeout("printNextXml()", 1500);
+    }
+}
+function printTktUsingXml(xml, currentTicket, totalTickets){
+    document.getElementById('printingMessage').innerHTML = "Printing " + currentTicket + " of " + totalTickets + ".";
+    $.ajax({
+        url : "http://localhost/printTkts/printTkts.php",
+        type: "POST",
+        data : "xml=" + xml,
+        success: function(data, textStatus, jqXHR)
+        {
+            document.getElementById('printingMessage').innerHTML = "Printed " + currentTicket + " of " + totalTickets + ".";
+        },
+        error: function(xhr, status, error) {
+            var err = eval("(" + xhr.responseText + ")");
+            document.write(err.Message);
+        }
+        /*error: function (jqXHR, textStatus, errorThrown)
+        {
+            document.write("ERROR");
+            document.write("jqXHR: " + jqXHR);
+            document.write("textStatus: " + textStatus);
+            document.write("errorThrown: " + errorThrown);
+        }*/
+    });
+}
+
+
+</script>    
+
+
+
+
+
+</head>
+
+<body>
+
+
+Thanks for your order!
+Your tickets will print below.
+<div id=printingMessage style="font-weight:bold;font-size:24pt;font-family:arial;color:#FF0000;text-align:center;">
+
+    
+</div>
+
+<script>
+window.setTimeout("printNext()", 2000);
+//window.setTimeout("printNextXml()", 2000);
+</script>
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sample jaKeyboard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="jaKeyboard.css">
+    </head>
+    <body>
+        <div> </div>
+         
+         <style>
+            input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;}
+         </style>
+         
+         <h1 align="center"> Sample jaKeyboard </h1><br> 
+         <h1>Enter Any Number: 
+         <input name="numberInput" id="numberInput"  type="number" onclick="jaShowKeyboard(this, 'NumPad1')"></h1><br>
+         <h1>Enter Any Text:  
+         <input name="textInput" id="textInput"  type="text" onclick="jaShowKeyboard(this, 'Keyboard1')"></h1><br>
+         <h1>Name:
+         <input name="nameInput" id="nameInput"  type="text" onclick="jaShowKeyboard(this, 'Keyboard1')"></h1><br>
+         <h1>Address:
+         <input name="addressInput" id="addressInput"  type="text" onclick="jaShowKeyboard(this, 'Keyboard1')"></h1><br>
+         <h1>City:
+         <input name="cityInput" id="cityInput"  type="text" onclick="jaShowKeyboard(this, 'Keyboard1')"></h1><br>
+         <h1>State:
+         <input name="stateInput" id="stateInput"  type="text" onclick="jaShowKeyboard(this, 'Keyboard1')"></h1>
+         <h1>Zip:
+         <input name="zipInput" id="zipInput"  type="number" onclick="jaShowKeyboard(this, 'NumPad1')"></h1><br>
+        
+         
+         
+         
+        <script src="jaKeyboard.js"></script>
+        
+    </body>
+</html>
